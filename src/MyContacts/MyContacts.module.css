@@ -1,0 +1,20 @@
+.myContants {
+    background-color: indianred;
+    height: 40vh;
+
+}
+
+.myContactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 5px;
+}

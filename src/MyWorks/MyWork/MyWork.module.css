@@ -1,0 +1,31 @@
+.MyWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #edebeb;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 280px;
+    background: #c7c2c2;
+}
+
+.info {
+    padding: 0;
+}
+
+.info h5 {
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+.description {
+    background: #e1e1e1;
+    width: 270px;
+    padding-bottom: 22px;
+}
