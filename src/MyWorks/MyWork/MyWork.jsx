@@ -5,11 +5,11 @@ export const MyWork = (props) => {
     return (
         <div className={style.MyWork}>
             <div className={style.img}>
-                <button className={btn.button}>Смотреть</button>
+                <a className={btn.button}>Смотреть</a>
             </div>
             <div className={style.info}>
-                <h5>Название проекта</h5>
-                <p className={style.description}>Краткое описание</p>
+                <h3 className={style.MyWorkTitle}>{props.title}</h3>
+                <span className={style.description}>Short description</span>
             </div>
         </div>
     );

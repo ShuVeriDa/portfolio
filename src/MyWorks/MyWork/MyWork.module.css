@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #edebeb;
     padding: 0;
+    background-color: #252527;
 }
+
+
 
 .img {
     display: flex;
@@ -14,18 +16,27 @@
     height: 280px;
     background: #c7c2c2;
 }
-
-.info {
-    padding: 0;
-}
-
-.info h5 {
-    padding: 10px 0 0 0;
-    margin: 0;
+.MyWorkTitle {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    color: #fff;
 }
 
 .description {
-    background: #e1e1e1;
-    width: 270px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.8;
     padding-bottom: 22px;
+    color: #ffffff;
+}
+
+.info {
+    padding: 25px 20px;
+}
+
+.info h3 {
+    padding: 10px 0 0 0;
+    margin: 0;
 }
