@@ -1,6 +1,5 @@
-.MyWorskBlock {
-    min-height: 100vh;
-    background-color: #91de88;
+.MyWorksBlock {
+    background-color: #1f1f20;
 }
 
 .MyWorksContainer {
@@ -18,4 +17,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 699px) {
+    .MyWorks {
+        justify-content: center;
+    }
 }
