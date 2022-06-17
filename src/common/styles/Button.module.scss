@@ -1,0 +1,14 @@
+@import "./sass/variables.scss";
+
+.button {
+    background-color: $primaryColor;
+    border: 0;
+    padding: 10px 22px;
+    color: $textColor;
+    position: relative;
+}
+
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

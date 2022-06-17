@@ -1,5 +1,7 @@
+@import '../common/styles/sass/variables';
+
 .myContants {
-    background-color: indianred;
+    background-color: $bgColor;
     height: 40vh;
 
 }

@@ -1,6 +1,6 @@
-import style from './DistantWork.module.css';
+import style from './DistantWork.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
-import btn from '../common/styles/Button.module.css'
+import btn from '../common/styles/Button.module.scss'
 
 export const DistantWork = () => {
     return (

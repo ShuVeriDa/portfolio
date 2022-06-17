@@ -1,0 +1,54 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+
+.MyWork {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   background-color: $bgSecondColor;
+
+   .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 500px;
+      height: 280px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+
+      &::before {
+         position: absolute;
+         content: "";
+         background: black;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         opacity: 0.4;
+      }
+   }
+
+   .info {
+      padding: 25px 20px;
+
+      .MyWorkTitle {
+         @include text($titleFontFamily, 16px, 1.2);
+
+         margin: 0 0 5px;
+         letter-spacing: 1px;
+      }
+      .description {
+         @include text($textFontFamily, 12px, 1.8);
+
+
+
+         font-weight: 400;
+         padding-bottom: 22px;
+      }
+   }
+}
+
