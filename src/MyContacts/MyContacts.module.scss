@@ -1,9 +1,9 @@
 @import '../common/styles/sass/variables';
 
 .myContants {
-    background-color: $bgColor;
-    height: 40vh;
-
+    background-image: radial-gradient(circle, #d88280, #e3a0b0, #e7c1d7, #ede1f0, #ffffff);
+    min-height: 40vh;
+    padding: 60px 0 ;
 }
 
 .myContactsContainer {
@@ -15,8 +15,27 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .input {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    width: 350px;
+    padding: 8px 15px;
+
+    @media screen and (max-width: 390px) {
+        width: 200px;
+    }
+}
+
+.input:focus {
+    outline: none;
+}
+
+.textarea {
+    padding: 15px;
+}
+
+.textarea:focus {
+    outline: none;
 }

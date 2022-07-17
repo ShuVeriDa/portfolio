@@ -1,17 +1,218 @@
 .mainBlock {
-    height: 100vh;
-    background-color: #ffd4d0;
+    min-height: 100vh;
+
+    @media screen and (max-width: 1255px) {
+        padding: 40px 0;
+    }
+
+    @media screen and (max-width: 699px) {
+        padding: 0;
+    }
+
+
 }
 
-
+.mainContainer {
+    height: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1255px) {
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (max-width: 699px) {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .text {
-    width: 300px;
-    background-color: #fff;
+    width: 646px;
+    max-width: 100%;
+    color: #1f3d44;
+    margin-left: 10px;
+
+    @media screen and (max-width: 699px) {
+        justify-content: center;
+    }
+}
+
+.text span {
+    color: #effd54;
+    font-size: 60px;
+    font-weight: bold;
+
+    @media screen and (max-width: 699px) {
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 478px) {
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 392px) {
+        font-size: 35px;
+    }
+}
+
+.text h1 {
+    font-size: 75px;
+    line-height: 118%;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+
+    @media screen and (max-width: 699px) {
+        font-size: 55px;
+    }
+
+    @media screen and (max-width: 478px) {
+        font-size: 45px;
+    }
+    @media screen and (max-width: 392px) {
+        font-size: 35px;
+    }
+    @media screen and (max-width: 308px) {
+        font-size: 30px;
+    }
+
+
+}
+
+.text p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #59c378;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 699px) {
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 478px) {
+        font-size: 18px;
+    }
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: #fff;
+    width: 600px;
+    height: 600px;
+    background-color: #45c4e9;
+    border-radius: 50%;
+    margin-top: 46px;
+
+    position: relative;
+    left: 50px;
+
+    @media screen and (max-width: 1255px) {
+        position: relative;
+        left: 0;
+    }
+
+    @media screen and (max-width: 699px) {
+        width: 400px;
+        height: 400px;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.photoLogo {
+    max-width: 100%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 699px) {
+        width: 400px;
+        height: 400px;
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.photoIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    border: 10px solid #fff;
+
+    @media screen and (max-width: 699px) {
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        border: 7.5px solid #fff
+    }
+
+    @media screen and (max-width: 450px) {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: 4.5px solid #fff
+    }
+}
+
+.photoIconJS {
+    position: relative;
+    bottom: 490px;
+
+    @media screen and (max-width: 699px) {
+        bottom: 330px;
+    }
+    @media screen and (max-width: 450px) {
+        bottom: 250px;
+    }
+}
+.photoIconTS {
+    position: relative;
+    left: -60px;
+    bottom: 150px;
+
+    @media screen and (max-width: 699px) {
+        bottom: 120px;
+    }
+    @media screen and (max-width: 450px) {
+        bottom: 80px;
+        left: -30px;
+    }
+}
+.photoIconRedux {
+    position: relative;
+    right: -260px;
+    bottom: 130px;
+
+    @media screen and (max-width: 699px) {
+        bottom: 90px;
+        right: -150px
+    }
+    @media screen and (max-width: 450px) {
+        bottom: 68px;
+        right: -130px
+    }
+}
+.photoIconReact {
+    position: relative;
+    right: -210px;
+    bottom: 500px;
+
+    @media screen and (max-width: 699px) {
+        right: -100px;
+        bottom: 350px;
+    }
+    @media screen and (max-width: 450px) {
+        right: -100px;
+        bottom: 260px;
+    }
 }

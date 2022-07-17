@@ -1,15 +1,25 @@
 .DistantWork {
-    background-color: darkkhaki;
+    display: flex;
     flex-direction: column;
+    padding: 70px 0;
+    background-image: linear-gradient(to left top, #f8f8f8, #e9effa, #cfe9fa, #afe5f1, #95e0dc);
 }
 
 .DistantWorkContainer {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .title {
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: none;
+
+    @media screen and (max-width: 390px) {
+        font-size: 20px;
+    }
 }
 
 .button {

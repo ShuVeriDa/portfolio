@@ -1,21 +1,35 @@
 .footer {
-    background-color: darkseagreen;
+    //background-image: linear-gradient(to right, #2d4634, #1f3d3a, #203338, #24282d, #202020);
+    background: #252527;
+    padding: 40px 0;
 }
 
 .footerContainer {
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 17vh;
-    max-height: 50vh;
 }
 
 .block {
     min-width: 250px;
-    max-width: 360px;
+    max-width: 700px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blockItem {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+
+
+.blockItem:hover {
+    text-decoration: underline;
 }
 
 .blockColor {
@@ -33,4 +47,14 @@
 
 .info {
     display: flex;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.titleH3 {
+    font-size: 16px;
 }

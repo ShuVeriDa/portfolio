@@ -1,5 +1,6 @@
 .MyWorksBlock {
-  background-color: #1f1f20;
+  background-image: linear-gradient(to left top, #fdf6dc, #fff5e3, #fff5ec, #fff6f4, #fdf9f9);
+  padding: 100px 0;
 
   .MyWorksContainer {
     flex-direction: column;
@@ -7,15 +8,15 @@
     flex-wrap: wrap;
 
     .MyWorks {
-      border: 1px solid;
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       margin-top: 30px;
       align-items: flex-start;
-      @media screen and (max-width: 699px) {
-        justify-content: center;
+
+      @media screen and (max-width: 1015px) {
+        align-items: center;
       }
     }
   }
